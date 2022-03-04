@@ -1,0 +1,1158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.headingfont {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.paragraphfont {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+
+}
+
+.raw {
+    width: 100%;
+    overflow: auto;
+}
+
+.backgroundcolor1 {
+    background-color: #97BDAB;
+}
+
+.backgroundcolor2 {
+    background-color: #A197BD;
+}
+
+.backgroundcolor3 {
+    background-color: #BDA697;
+}
+
+.backgroundcolor4 {
+    background-color: #97BDAB;
+}
+
+.iconbackgroundcolor1 {
+    background-color: white;
+}
+
+.iconbackgroundcolor2 {
+    background-color: white;
+}
+
+.iconbackgroundcolor3 {
+    background-color: white;
+}
+
+.iconbackgroundcolor4 {
+    background-color: white;
+}
+
+.color1 {
+    color: white;
+}
+
+.color2 {
+    color: white;
+}
+
+.color3 {
+    color: white;
+}
+
+.color4 {
+    color: white;
+}
+
+.iconcolor1 {
+    color: #97BDAB;
+}
+
+.iconcolor2 {
+    color: #A197BD;
+}
+
+.iconcolor3 {
+    color: #BDA697;
+}
+
+.iconcolor4 {
+    color: #97BDAB;
+}
+
+/* menubarsection */
+nav {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    color: #FFF;
+    background-color: #000;
+}
+
+nav h2 {
+    display: inline-block;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav select {
+    display: inline-block;
+    float: right;
+    width: 150px;
+    height: 35px;
+    color: #474747;
+    background-color: #FFF;
+    font-size: 15px;
+}
+
+/* menubar section end */
+/* <!-- homepage --> */
+.home {
+    width: 100%;
+    overflow: auto;
+    padding: 200px 0px 280px 0px;
+    background-color: rgba(40,46,57,.7);
+
+    
+
+}
+.homecover{
+    width: 100%;
+    overflow: auto;
+    background-image: url(../images/chill\ aid\ background-01.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.homecontainer {
+    width: 70%;
+    margin: auto;
+}
+
+.home h1 {
+    font-size: 50px;
+    color: #FFF;
+    margin: 0px 0px 40px 0px;
+
+}
+
+.home p {
+    margin: 0px 130px 30px 130px;
+    line-height: 2;
+    color: #FFF;
+}
+
+.home button {
+    color: #FFF;
+    background-color: #97A9BD;
+    border-color: #97A9BD;
+    padding: 10px;
+}
+
+/* <!-- homepage end --> */
+/* information section */
+.information {
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    top: -100px;
+}
+
+.informationbox {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.informationsubbox {
+    width: 100%;
+    overflow: auto;
+    border-radius: 65px 2px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.informationicondiv {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 65px;
+
+}
+
+.informationicondiv i {
+    font-size: 25px;
+}
+
+.informationsubbox h3 {
+    margin: 30px 0px 20px 0px;
+}
+
+.informationsubbox:hover {
+    background-color: white;
+    box-shadow: 10px 0px 30px -10px gray;
+}
+
+.informationsubbox:hover .iconcolor1, .informationsubbox:hover .iconcolor2, .informationsubbox:hover .iconcolor3, .informationsubbox:hover .iconcolor4 {
+    color: white;
+}
+
+.informationsubbox:hover .iconbackgroundcolor1 {
+    background-color: #97BDAB;
+
+}
+
+.informationsubbox:hover .iconbackgroundcolor2 {
+    background-color: #A197BD;
+
+
+}
+
+.informationsubbox:hover .iconbackgroundcolor3 {
+    background-color: #BDA697;
+
+
+}
+
+.informationsubbox:hover .iconbackgroundcolor4 {
+    background-color: #97BDAB;
+
+
+}
+
+.informationsubbox:hover .color1 {
+    color: #97BDAB;
+
+}
+
+.informationsubbox:hover .color2 {
+    color: #A197BD;
+
+
+}
+
+.informationsubbox:hover .color3 {
+    color: #BDA697;
+
+}
+
+.informationsubbox:hover .color4 {
+    color: #97BDAB;
+
+}
+
+/* information section end */
+/* imagesection */
+.image {
+    width: 100%;
+    overflow: auto;
+
+}
+
+.imagebox {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0px 10px;
+}
+
+.imagesubbox {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: auto;
+    border: 0.5px solid rgba(128, 128, 128, 0.342);
+}
+
+.imagediv {
+    width: 100%;
+    height: 300px;
+}
+
+.imagesubbox img {
+    width: 100%;
+    height: 300px;
+}
+
+.imagefooter {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.imagefooter a {
+    display: inline-block;
+    float: left;
+    font-size: 25px;
+    color: #474747;
+}
+
+.imagefooter i {
+    font-size: 20px;
+    color: #FFF;
+    vertical-align: middle;
+    line-height: 35px;
+}
+
+.imagefootericon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    background-color: #A197BD;
+}
+
+.imagesubbox:hover .imagefooter, .imagesubbox:hover .imagefooter a {
+    background: #A197BD;
+    color: white;
+}
+
+.imagesubbox:hover .imagefootericon, .imagesubbox:hover .imagefootericon i {
+    background-color: #FFF;
+    color: #A197BD;
+}
+
+/* imagesection end */
+/* service section */
+.service {
+    width: 100%;
+    overflow: auto;
+    padding: 80px 0px;
+    margin-top: 100px;
+    background-color: rgba(40,46,57,.7);
+    text-align: center;
+    
+}
+.servicecover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/background-02.jpg);
+
+}
+
+.service h2 {
+    color: #FFF;
+    font-size: 34px;
+}
+.servicep{
+    color: #FFF;
+}
+.servicebox {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.servicesubbox {
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+    background-color: #FFF;
+    padding: 30px 10px 30px 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px 5px rgba(128, 128, 128, 0.26);
+}
+
+.serviceiconbox {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: #97A9BD;
+    margin: auto;
+}
+
+.serviceiconbox i {
+    color: #FFF;
+    font-size: 25px;
+}
+
+.servicesubbox h5 {
+    font-size: 16px;
+    color: #000;
+    margin: 30px 0px 20px 0px;
+}
+
+.serviceparagraph {
+    line-height: 1;
+    font-size: 20px;
+    color: #474747;
+}
+
+.servicesubbox:hover {
+    background-color: #A197BD;
+}
+
+.servicesubbox:hover .headingfont {
+    color: #FFF;
+}
+
+.servicesubbox:hover .serviceparagraph {
+    color: #FFF;
+}
+
+.servicesubbox:hover .serviceiconbox {
+    background-color: #FFF;
+}
+
+.servicesubbox:hover .serviceiconbox i {
+    color: #A197BD;
+}
+
+/* service section  end*/
+/* clientssection */
+.clientssection {
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    color: #474747;
+    background-color: rgba(250, 235, 215, 0.123);
+    margin-top: 50px;
+    padding: 50px 0px 50px 0px;
+}
+
+.clientbox {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.clientsubbox {
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    border: 0.5px solid gray;
+}
+
+.clientsubbox img {
+    width: 100%;
+    height: 300px;
+}
+
+.clientssection h6 {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.clientssection p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.clientssection h5 {
+    font-size: 34px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+}
+
+/* clientssection */
+/* client feedbacksection */
+.clientfeedback {
+    width: 100%;
+    overflow: auto;
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+    background-color: #97A9BD;
+    color: #FFF;
+
+}
+
+.clientfeedback h2 {
+    font-size: 34px;
+    padding-bottom: 100px;
+    font-weight: lighter;
+}
+
+.clientfeedbackbox {
+    width: 50%;
+    float: left;
+}
+
+.clientfeedbacksubbox {
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+.clientintro {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.clientintro img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: right;
+}
+
+.clientintro h3 {
+    font-size: 25px;
+    padding: 20px 0px 0px 20px;
+    line-height: 1.2;
+
+}
+
+.clientintro p {
+    padding: 0px 0px 0px 20px;
+    font-size: 20px;
+
+}
+
+.clientexperience {
+    width: 80%;
+    overflow: auto;
+    border-radius: 40px 2%;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    line-height: 1.2;
+}
+
+
+/* client feedback section end */
+/* social media section */
+.socialmedia {
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+    color: #474747;
+    background-color: #FFF;
+}
+.socialmedia h2{
+    font-size: 34px;
+    padding-bottom: 100px;
+    font-weight: lighter;
+}
+
+.socialmediabox {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.socialmediasubbox {
+    width: 100%;
+    overflow: auto;
+}
+
+.socialmediasubbox img {
+    width: 100%;
+    height: 300px;
+}
+
+.socialmediaimagebox {
+    width: 100%;
+    height: 300px;
+}
+
+.sociamediafooter {
+    width: 100%;
+    box-sizing: border-box;
+    color: #FFF;
+}
+
+.sicialmediafooterdiv {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 10px 0px 10px 10px;
+    background-color: #282E39;
+    box-sizing: border-box;
+
+
+
+
+
+}
+
+.sociamediafooterdivight {
+    float: right;
+}
+
+.sicialmediafooterdiv i {
+    display: inline-block;
+}
+
+.sicialmediafooterdiv a {
+    display: inline-block;
+}
+
+/* socialmedia section end */
+.contact{
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+    color: #474747;
+    background-color: #F4F4F4;
+}
+
+.contactbox {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.contactsubbox {
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.contactdiv {
+    width: 100%;
+    overflow: auto;
+    padding: 20px;
+    background-color: white;
+    margin: 50px 0px;
+    box-sizing: border-box;
+}
+
+.contactdivleft {
+    width: 15%;
+    height: 60px;
+    border-radius: 50%;
+text-align: center;
+    float: left;
+}
+
+.contactdivleft i {
+    font-size: 25px;
+    color: white;
+    vertical-align: middle;
+    line-height: 60px;
+}
+
+.contactdivright {
+    width: 85%;
+    float: left;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+
+.contactsubbox input{
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 20px;
+    border: none;
+}
+.contactsubbox button{
+    width: 150px;
+    height: 60px;
+    background: #A197BD;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.contactsubboxheading{
+    padding:50px 0px 10px 0px;
+    font-size: 34px !important;
+}
+.contactsubbox p{
+    font-size: 25px;
+    color:gray;
+    line-height: 1.5;
+}
+.contact h2{
+    font-size: 34px;
+    font-weight:lighter;
+}
+.contactdivright h5{
+    font-size: 25px;
+    color:gray;
+    font-weight: lighter;
+}
+.contactdivright h4{
+    font-size: 25px;
+    color:gray;
+    font-weight: bolder;
+}
+
+.contact h6{
+    font-size: 30px;
+    color: #636060;
+    padding: 45px 0px 30px 0px;
+    font-weight: lighter;
+}
+/* footersection */
+.footercover{
+    background-image: url(../images/background-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    width: 100%;
+    overflow: auto;
+    padding: 50px 0px 50px 0px;
+    background-color: rgba(40,46,57,.7);
+
+   
+}
+.footerbox{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.footersubbox{
+    width: 100%;
+    overflow: auto;
+}
+.footer h2{
+    font-size: 25px;
+    color:#FFF;
+    padding:0px 0px 40px 0px ;
+}
+.footer p{
+    font-size: 14px;
+    color: #636060;
+}
+.footersubbox i{
+    color:#282E39;
+    font-size: 20px;
+}
+.sociallogosection{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    font-weight: bold;
+
+}
+.sociallogo{
+    width: 20px;
+    height: 20px;
+    border: 10px solid #282E39;
+    float: left;
+    margin: 5px 5px;
+    text-align: center;
+    background-color: #97A9BD;
+
+}
+.footersubbox h3{
+    color: #FFF;
+    font-size: 20px;
+}
+.footersubbox ul{
+    list-style-type: none;
+    padding-top: 30px;
+}
+.footersubbox ul li{
+    padding:  20px 0px;
+    border-bottom: 1px solid grey;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #97A9BD;
+    font-size: 18px;
+}
+.footerimgraw{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.footerimgraw img{
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 5px;
+}
+.seminardiv{
+    width: 100%;
+    overflow: auto;
+    padding: 20px 0px;
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+text-align: left;
+
+    box-sizing: border-box;
+}
+.seminardiv a{
+    color: #97A9BD;
+    line-height: 1.5;
+}
+.seminardiv p{
+    color: #636060;
+}
+
+/* footersection end */
+
+/* mediaquery swection */
+@media screen and (max-width:769px) and (min-width:426px) {
+    .container {
+        width: 80%;
+    }
+
+    /* menubar section */
+    nav {
+        text-align: center;
+    }
+
+    nav h2 {
+        display: block;
+        margin: 30px 0px 20px 0px;
+    }
+
+    nav select {
+        display: block;
+        float: none;
+        margin: auto;
+        width: 100%;
+    }
+
+    /* menubar section end */
+    /* home section */
+    .homecontainer {
+        width: 90%;
+    }
+
+
+    .home h1 {
+        font-size: 25px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .home p {
+        margin: 0px 0px 70px 0px;
+    }
+
+    /* home section end*/
+    /* informationsection */
+    .informationbox {
+        width: 100%;
+    }
+
+    /* informationsection end */
+    /* imagesection */
+    .imagebox {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .imagesubbox img {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* imagesection end */
+    /* service section */
+    .servicebox {
+        width: 100%;
+    }
+
+    /* service section end */
+    /* clientssection */
+    .clientbox {
+        width: 100%;
+        padding: 10px 100px;
+
+    }
+    .clientsubbox{
+    }
+.clientssection h5{
+    font-size: 25px;
+}
+.clientssection{
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+.clientsubbox img {
+    width: 100%;
+}
+    /* clientsectionend */
+    /* clientfeedback section */
+
+    .clientfeedbackbox {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .clientfeedback h2 {
+        font-size: 25px;
+        padding: 0px 0px 50px 0px;
+    }
+
+    .clientintro {
+        width: 100%;
+        text-align: center;
+    }
+
+    .clientintro img {
+        float: none;
+    }
+
+    /* clientfeedback section end */
+    /* social media section */
+
+.socialmediabox{
+    width: 100%;
+    padding: 20px 100px;
+}
+.socialmedia h2{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+    /* social media section end */
+    /* contact section */
+    .contact{
+        padding: 50px 0px 50px 0px;
+    }
+    .contactbox{
+        width: 100%;
+    }
+    .contact h6{
+        padding: 0px 0px 30px 0px;
+        font-weight: lighter;
+    }
+    .contactsubbox{
+        padding: 0px;
+    }
+    .contact h2{
+        font-size: 25px;
+        padding: 0px 0px 0px 0px;
+    }
+    .contactdivright h4{
+        font-size: 20px;
+    }
+    .contactdivright h5{
+        font-size: 20px;
+    }
+    .contactdivleft{
+        width: 10%;
+        height: 50px;
+    }
+    .contactdivleft i{
+        line-height: 50px;
+    }
+    .contactsubbox p {
+        font-size: 20px;
+        
+    }
+    /* contact section end */
+
+/* footersection */
+.footerbox{
+    width: 100%;
+}
+.footer img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.seminardiv a {
+    color: #97A9BD;
+    line-height: 2.5;
+}
+
+/* footer section end */
+
+
+
+
+
+    /* mediaquerysection end */
+
+
+}
+
+@media screen and (max-width:426px) {
+    .container {
+        width: 90%;
+    }
+
+    /* menubar section */
+    nav {
+        text-align: center;
+    }
+
+    nav h2 {
+        display: block;
+        margin: 30px 0px 20px 0px;
+    }
+
+    nav select {
+        display: block;
+        float: none;
+        margin: auto;
+        width: 100%;
+    }
+
+    /* menubar section end */
+    /* home section */
+    .homecontainer {
+        width: 90%;
+    }
+
+
+    .home h1 {
+        font-size: 25px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .home p {
+        margin: 0px 0px 70px 0px;
+    }
+
+    /* home section end*/
+    /* informationsection */
+    .informationbox {
+        width: 100%;
+    }
+
+    /* informationsection end */
+    /* imagesection */
+    .imagebox {
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    /* imagesection end */
+    /* service section */
+    .servicebox {
+        width: 100%;
+    }
+
+    /* service section end */
+    /* clientssection */
+    .clientbox {
+        width: 100%;
+    }
+.clientssection h5{
+    font-size: 25px;
+}
+.clientssection{
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+    /* clientsectionend */
+    /* clientfeedback section */
+
+    .clientfeedbackbox {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .clientfeedback h2 {
+        font-size: 25px;
+        padding: 0px 0px 50px 0px;
+    }
+
+    .clientintro {
+        width: 100%;
+        text-align: center;
+    }
+
+    .clientintro img {
+        float: none;
+    }
+
+    /* clientfeedback section end */
+    /* social media section */
+
+.socialmediabox{
+    width: 100%;
+    padding: 20px 0px;
+}
+.socialmedia h2{
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+    /* social media section end */
+    /* contact section */
+    .contact{
+        padding: 50px 0px 50px 0px;
+    }
+    .contactbox{
+        width: 100%;
+    }
+    .contact h6{
+        padding: 0px 0px 30px 0px;
+        font-weight: lighter;
+    }
+    .contactsubbox{
+        padding: 0px;
+    }
+    .contact h2{
+        font-size: 25px;
+        padding: 0px 0px 0px 0px;
+    }
+   
+    .contactdivright h4{
+        font-size: 20px;
+    }
+    .contactdivright h5{
+        font-size: 20px;
+    }
+    .contactdivleft{
+        width: 15%;
+        height: 50px;
+    }
+    .contactdivleft i{
+        line-height: 50px;
+    }
+    .contactsubbox p {
+        font-size: 20px;
+        
+    }
+    /* contact section end */
+
+/* footersection */
+.footerbox{
+    width: 100%;
+}
+.footer img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.seminardiv a {
+    color: #97A9BD;
+    line-height: 2.5;
+}
+/* footer section end */
+
+
+
+
+
+    /* mediaquerysection end */
+
+
+}
